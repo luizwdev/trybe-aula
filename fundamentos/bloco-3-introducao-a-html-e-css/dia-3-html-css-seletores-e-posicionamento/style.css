@@ -1,0 +1,171 @@
+/* .caixa {
+    color: white;
+    display: inline-block;
+    line-height: 50px;
+    text-align: center;
+    vertical-align: top;
+  }
+  
+  .width-and-height {
+    height: 50px;
+    width: 50px;
+  }
+  
+  .padding {
+    padding: 20px;
+  }
+  
+  .margin {
+    margin: 30px;
+  }
+  
+  .border {
+    border: 5px solid black;
+  } */
+
+  /* POSICIONAMENTO DE ELEMENTOS */
+
+  /* .super-mario {
+    width: 200px;
+    position: absolute;
+    top: 270px;
+    left: 10px;
+  }
+  
+  .goomba {
+    width: 100px;
+    position: absolute;
+    top: 560px;
+    left: 70px;
+
+  }
+  
+  .baloon {
+    position: absolute;
+    top: 90px;
+    left: 120px;
+  }
+  
+  .speach {
+    font-size: 25px;
+    position: absolute;
+    top: 130px;
+    left: 140px;
+    z-index: 3;
+  }
+  
+  .bowser {
+    width: 200px;
+    position: absolute;
+    top: 270px;
+    left: 400px;
+  }  */
+
+    /* AGRUPAMENTOS DE SELETORES E PSEUDOCLASSES */
+
+    /* h1,p{
+        text-align: center;
+    }
+
+    h3{
+        font-style: oblique;
+    }
+
+    li{
+        list-style: none;
+    }
+
+    li:hover{
+        background: green;
+    }
+
+    li:active{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+    div:hover{
+        border: 3px solid black;
+    }
+
+    #cor-primaria{
+        background-color: blue;
+        width: 300px;
+        font-style: italic;
+    }
+
+    #cor-secundaria{
+        background-color: blueviolet;
+        width: 300px;
+    }
+
+    #cor-complementar{
+        background-color: burlywood;
+        width: 600px;
+        font-style: italic;
+    }
+
+    #cor-escura{
+        background-color: chocolate;
+        width: 300px;
+    }
+
+    #cor-clara{
+        background-color: crimson;
+        width: 300px;
+        font-style: italic;
+    } */
+
+
+    /* COMBINAÇOES E CLASSES DESCENDENTES*/
+
+    ul li{
+        font-size: 20px;
+    }
+
+    ol li{
+        background-color: yellow;
+        font-weight: bold;
+    }
+
+    .itens-impares{
+        text-transform: uppercase;
+    }
+
+    .itens-pares{
+        color: green;
+    }
+
+    .itens-italicos{
+        font-size: 40px;
+        border: 1px solid black;
+    }
+
+    .itens-vermelho-link a:hover{
+        color: red;
+        font-weight: bold;
+    }
+
+    .itens-azul a:hover{
+        color: blue;
+        font-weight: bold;
+    }
+
+    .itens-fundo-rosa a:hover{
+        background-color: pink;
+        font-weight: bold;
+    }
+
+    .itens-laranja a:hover{
+        color: orange;
+        font-weight: bold;
+    }
+
+    .itens-green a:hover{
+        color: green;
+        font-weight: bold;
+    }
+
+    .itens-preto a:hover{
+        color: black;
+        font-weight: bold;
+    }
